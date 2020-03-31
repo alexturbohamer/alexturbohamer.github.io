@@ -1,0 +1,264 @@
+@import "style1.css";
+
+.header{
+    display: block;
+    width: 100%;
+    height: 330px;
+    background-color: #495261;
+    padding: 50px;
+    
+}
+
+.produkt{
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.produkt-item{   
+    margin-top: 50px;
+    font-size: 20px;
+    color: #ffffff; 
+}
+
+.produkt-item li{
+    background: url(img/check.png) left no-repeat;
+    font-size: 20px;
+    padding:0px 0px 0px 36px;
+    margin:  0 0 15 0;
+}
+li{
+    margin: 10px;
+}
+
+
+.baner{
+    background-color:#fff;
+    display: block;
+    width: 470px;
+    height: 225px;
+    right: 50px;
+    top: 50px;
+}
+.about{
+    display: flex;
+    width: 100%;
+    height: 340px;
+    background-color: #fff;
+    padding: 50px;
+    justify-content:space-between ;
+    
+}
+.about-item{
+    font-size: 30px;
+    color:#495261;
+    padding-bottom: 20px;
+    
+}
+
+.lorem{
+
+    line-height:25px;
+    font-size: 16px;
+    display: block;
+    max-width: 655px;
+    height: 150px;
+    font-family:Arial, sans-serif;
+}
+p{
+    padding-top: 19px;
+}
+
+.baner-grey{
+    background-color:#4a5261 ;
+    display: block;
+    width: 430px;
+    height: 250px;
+    right: 50px;
+    top: 50px;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+}
+
+.dignity{
+
+    display: block;
+    width: auto;
+    height: 430px;
+    background-color: #f5f5f5;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.dignity-text{
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 30px;
+    color:#495261 ;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.dig-flex{
+    font-family:Arial, sans-serif;
+    font-size: 16px;
+}
+.dig-flex li{
+    background: url(img/krest.png) 0 5px no-repeat;
+    padding:0px 0px 0px 45px;
+    margin:  0px 0px 15px 0px;
+    max-width: 650px;
+    line-height: 25px;
+}
+.dig-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.scrinshots{
+    padding:50px 50px;
+    font-family:Arial, sans-serif;
+}
+.scrinshots-textm{
+    text-align: center;
+    font-size: 30px;
+    color: #495261;
+    padding-bottom: 15px;
+}
+.maintex{
+    font-size: 24px;
+    color: #495261;
+}
+
+.subtext{
+font-size: 16px;
+
+}
+.scr-flex{
+    display: flex;
+    justify-content: space-between;
+    line-height: 28px;
+
+}
+.li-item{
+    max-width: 570px;
+    margin-top: 25px;
+}
+.scr-flex li{
+    background: url(img/kvdrat.png) 0px 0px no-repeat;
+    padding:0px 0px 0px 220px;
+    max-width: 650px;
+    line-height: 25px;
+
+}
+.revtext_item{
+    display: inline-block;
+    width: 77px;
+    height: 77px;
+    background:#495261;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding-top: 20px;
+    position: relative;
+    bottom: 35px;
+}
+
+.revtext{
+    display: inline-block;
+    width: 470px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    line-height: 20px;
+    font-size: 14px;
+    background:  url(img/bg\ review.png) 0px 0px no-repeat;
+    padding:7px 5px 10px 25px;
+    border-radius: 20px;
+}
+
+.reviews-textm{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+.reviews{
+    background:#f5f5f5;
+    padding: 0px 50px;
+}
+
+.subre{
+    margin-top: 8px;
+}
+.reviews-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.subtex li{
+    list-style: decimal;
+}
+.flexcoll{
+    display: flex;
+    max-width: 990px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+ 
+
+.buy-it{
+padding: 50px;
+text-align: center;
+font-size: 30px;
+color:#495261 ;
+}
+
+.flexbuy{
+    
+    background-color:#495261 ;
+    width: 290px;
+    border-radius: 5px;
+    color:#fff;
+    border: 1px solid  #495261;
+}
+
+.label{
+height: 50px;
+text-align: center;
+padding: 10px;
+font-size: 20px;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+}
+.sublabel{
+    text-align: center;
+    height: 70px;    
+    color:#495261     ;
+     background-color: #fff;   
+        font-size: 30px;
+        padding-top: 20px;    
+}
+.subtex{
+padding-top: 15px;
+padding-left: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.buy{
+    padding-bottom: 50px;    
+}
+
+.btn{
+    display: block;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    color:#495261;
+    text-transform: uppercase;
+    margin: 20px;
+    text-align: center;
+    line-height: 40px;
+    
+}
