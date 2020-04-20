@@ -565,7 +565,28 @@ left: 10%;
 }
 
 
+input
+{
+ display: none; 
+ 
+}
 
+input[id="item01"]:checked,
+input[id="item02"]:checked,
+input[id="item03"]:checked,
+input[id="item04"]:checked{
+
+    display: block;
+}
+
+label{
+    cursor: pointer;
+}
+
+
+.photo-selected{
+    position: relative;
+}
 
 .sub-text-title:target {
     display: block;
@@ -583,8 +604,9 @@ left: 10%;
 .sub-text-title {
 margin: 50px;
 width: 634px;
-height: 151px;
-
+display: none;
+position: absolute;
+background-color: #fff;
 }
 
 .title-main-text {
@@ -608,7 +630,10 @@ line-height: 27px;
 .soc-network {
     display: flex;
     align-items: center;
-    padding-left: 100px;
+    right: -850px;
+    position: relative;
+    
+    
 }
 .share {
     background: url(img/share.png) no-repeat;
@@ -617,6 +642,7 @@ line-height: 27px;
     position: relative;
     
 }
+
 
 .list-item {
     border-left: 2px solid #efefef;
