@@ -156,7 +156,7 @@ html {
         display: none;
     }
     .header-text {
-        padding-top: 250px;
+        margin-top: 100px;
     }
     .nav-items {
         margin-top: 30px;
@@ -204,6 +204,7 @@ html {
         transition: 0.5s;
         margin-right: 0;
         background-color: rgba(0, 0, 0, 0.4);
+        
     }
     .nav li {
         margin-right: 0;
