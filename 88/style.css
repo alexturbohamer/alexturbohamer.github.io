@@ -5,25 +5,37 @@ font-family: 'Montserrat', sans-serif;*/
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #000000;
+    height: 100%;
+    width: 100%;
 }
+html{
+
+    width: 100%;
+}
+
+
+
+
+
 
 .header {
     position: relative;
     background: url("img/photo.png") no-repeat;
-    height: 1024px;
+    width: 100%;
+    height: 800px;
     background-size: cover;
     background-position: center;
 }
 
-.header::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0,0,0,0.5);  
-      }
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 .header-navigator {
     width: auto;
@@ -97,5 +109,14 @@ body {
 @media  (max-width: 1040px) {
     .nav-items li:nth-child(2n) {
         display: none;
+       
+        
+    }
+}
+@media  (max-width: 617px) {
+    .nav-items li {
+        display: none;
+       
+        
     }
 }
