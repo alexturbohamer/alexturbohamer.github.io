@@ -120,7 +120,7 @@ html {
     text-align: center;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
-    padding-top: 150px;
+    padding-top: 100px;
     position: relative;
     z-index: 10;
 }
@@ -142,13 +142,31 @@ html {
     line-height: 30px;
 }
 
+.item-nav-search2 {
+    display: none;
+    background: url("img/icon-search.png") no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
 @media (max-width: 767px) {
+    .header-text {
+   
+        padding-top: 150px;
+      
+    }
+    .logo {
+        position: relative;
+        margin: 0 auto;
+        order: 2;
+    }
     .item-nav {
         display: none;
     }
-     .header{
-         overflow: hidden;
-     }
+    .item-nav-search2 {
+        display: block;
+        order: 3;
+    }
     .header-main-text {
         font-size: 16px;
     }
@@ -159,23 +177,27 @@ html {
     .header-subtext-sub {
         display: none;
     }
-    .header-text {
-        margin-top: 100px;
+    .nav {
+        position: relative;
     }
     .nav-items {
         margin-top: 30px;
         position: absolute;
         z-index: 100;
-        display: block;
-        right: -100%;
-        text-align: right;
+        display: none;
     }
     .nav-items li {
-        padding: 10px 10px ;
+        padding: 10px 10px;
     }
 }
 
 @media(max-width:767px) {
+    .header {
+        overflow: hidden;
+    }
+    .logo-text {
+        display: none;
+    }
     .header-burger {
         display: block;
         position: relative;
@@ -205,16 +227,29 @@ html {
         top: 9px;
     }
     .nav-items.active {
-        right: -0%;
+        display: block;
         transition: 0.5s;
         margin-right: 0;
         background-color: rgba(0, 0, 0, 0.2);
-        
     }
     .nav li {
         margin-right: 0;
     }
-    
+}
+
+.header-btn {
+    position: relative;
+    width: 170px;
+    height: 53px;
+    background-color: #998675;
+    border-radius: 3.0px;
+    color: #ffffff;
+}
+
+.header-buton {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 /**/
