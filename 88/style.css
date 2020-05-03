@@ -146,6 +146,9 @@ html {
     .item-nav {
         display: none;
     }
+     .header{
+         overflow: hidden;
+     }
     .header-main-text {
         font-size: 16px;
     }
