@@ -269,7 +269,7 @@ html {
 }
 
 .flex {
-    margin 2%;
+    margin: 2%;
 }
 
 .header-line {
@@ -434,6 +434,7 @@ html {
 }
 
 .ideas-main-gradient {
+    padding: 1%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -516,7 +517,9 @@ html {
 
 /**/
 
-.latest-projects {}
+.latest-projects {
+    padding: 1%;
+}
 
 .latest-text {
     padding-top: 20px;
@@ -575,6 +578,9 @@ html {
 .latest-row {
     margin: 0 1%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 370px;
 }
 
 .latest-row:before {
@@ -638,9 +644,8 @@ html {
 
 .oone-img {
     position: relative;
-    min-width: 370px;
     min-height: 100px;
-    width: 370px;
+    max-width: 370px;
     height: 100px;
     background-color: #fbfaf8;
     display: flex;
@@ -674,7 +679,7 @@ html {
     box-sizing: border-box;
 }
 
-.latest-buton{
+.latest-buton {
     display: flex;
     justify-content: center;
     margin: 2%;
@@ -684,4 +689,187 @@ html {
     padding-top: 2%;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width:1200px) {
+    .hide-mobile {
+        display: none;
+    }
+    .latest-img-row {}
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+@media (max-width:780px) {
+    .latest-img-row {
+        display: block;
+    }
+    .latest-row {
+        margin: 10px auto;
+    }
+    .latest-img-row {
+        padding-top: 0;
+    }
+    .latest-maintext {
+        font-size: 25px;
+    }
+    .latest-subtext {
+        font-size: 12px;
+    }
+    .navigator-lates li {
+        font-size: 10px;
+    }
+}
+
+/**/
+
+.waxon-video {
+    background: url("img/111.png");
+    width: 100%;
+    height: 705px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-wrapper {
+    max-width: 522px;
+}
+
+.video-img {
+    position: relative;
+}
+
+.video-wrapper-krug {
+    background: url(img/icon_play.png) no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    z-index: 5;
+}
+
+.video-kvadrat {
+    top: -15px;
+    left: -15px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0.2;
+    background-color: #000000;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.video-img-wraper {
+    display: flex;
+    justify-content: center;
+}
+
+.video-text {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.video-maintex {
+    font-family: "Raleway";
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.video-subtext {
+    margin-top: 3%;
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+/**/
+
+.exellend-for-mob {
+    
+    padding: 0px 20px;
+    max-height: 695px;
+    background-color: #fbfaf8;
+}
+
+.exellend-for-mob-wrapper {
+    padding-top: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.exelle-img {}
+
+.exelle-text-wrapper {
+    max-width: 680px;
+    margin-bottom: 10%;
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+.exelle-text-main {
+    font-family: "Raleway";
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.exelle-text-subb {
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 19px 0px;
+}
+
+.exelle-text-ul li {
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #8c8c8c;
+    padding-left: 50px;
+}
+
+.exelle-text-ul li:before {
+    content: url("img/strelka.svg");
+    width: 27px;
+    height: 27px;
+    padding-right: 20px;
+    position: relative;
+    top: 5px
+}
+
+@media(max-width:768px){
+
+    .exelle-img {
+
+
+        display: none;
+    }
+
+    .exelle-text-ul li{
+        padding-left: 0;
+        font-size: 13px;
+    }
+    .exelle-text-wrapper{
+
+        margin-left:0;
+    }
+
 }
