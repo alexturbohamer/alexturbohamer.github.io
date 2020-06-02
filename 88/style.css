@@ -797,7 +797,6 @@ img {
 /**/
 
 .exellend-for-mob {
-    
     padding: 0px 20px;
     max-height: 695px;
     background-color: #fbfaf8;
@@ -855,21 +854,124 @@ img {
     top: 5px
 }
 
-@media(max-width:768px){
-
+@media(max-width:768px) {
     .exelle-img {
-
-
         display: none;
     }
-
-    .exelle-text-ul li{
+    .exelle-text-ul li {
         padding-left: 0;
         font-size: 13px;
     }
-    .exelle-text-wrapper{
-
-        margin-left:0;
+    .exelle-text-wrapper {
+        margin-left: 0;
     }
+}
 
+/**/
+
+.five-img-main {}
+
+.five-img-wraper {
+    width: 100%;
+    height: 300px;
+    background-color: #f4f5f8;
+    background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+}
+
+.five-wrapper-flex {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.five-main-blok {
+    height: 150px;
+    margin: 60px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-blok-img-1 {
+    background: url("img/icon_51.svg") no-repeat;
+    background-size: cover;
+    width: 44px;
+    height: 44px;
+}
+
+.main-blok-img-2 {
+    background: url("img/icon_52.svg") no-repeat;
+    background-size: cover;
+    width: 48px;
+    height: 44px;
+}
+
+.main-blok-img-3 {
+    background: url("img/icon_53.svg") no-repeat;
+    background-size: cover;
+    width: 44px;
+    height: 44px;
+}
+
+.main-blok-img-4 {
+    background: url("img/icon_54.svg") no-repeat;
+    background-size: cover;
+    width: 44px;
+    height: 44px;
+}
+
+.main-blok-img-5 {
+    background: url("img/icon_55.svg") no-repeat;
+    background-size: cover;
+    width: 54px;
+    height: 44px;
+}
+
+.main-blok-counter {
+    font-family: "Montserrat";
+    font-size: 48px;
+    line-height: 36px;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.main-blok-text {
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #c7b299;
+}
+
+.main-blok-line {
+    width: 30px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+@media(max-width:855px) {
+    .main-blok-text {
+        font-size: 9px;
+    }
+    .main-blok-counter {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:668px) {
+    .five-wrapper-flex {
+        flex-wrap: wrap;
+    }
+    .five-main-blok {
+        max-height: 130px;
+        margin: 0 20px;
+        padding-bottom: 20px;
+        width: 35%;
+    }
+    .five-main-blok:first-child {
+        display: none;
+    }
 }
