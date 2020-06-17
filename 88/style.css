@@ -975,3 +975,427 @@ img {
         display: none;
     }
 }
+
+/**/
+
+.bloc-recent-post {
+    padding: 2%;
+}
+
+.fon-img-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat";
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    width: 50px;
+    height: 35px;
+    background-color: #363636;
+    border-radius: 3.0px 3.0px 0.0px 0.0px;
+}
+
+.fon-img-mounts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 50px;
+    height: 25px;
+    background-color: #252525;
+    border-radius: 0.0px 0.0px 3.0px 3.0px;
+}
+
+.recent-post-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-text-main {
+    font-family: "Raleway";
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.post-text-subtext {
+    max-width: 700px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.post-img-flex {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.post-img-block {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1200px;
+    max-width: 1200px;
+}
+
+.fon-img {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+.post-img-first span {
+    padding: 20px;
+    display: block;
+    padding-top: 10px;
+    font-family: "Raleway";
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #555555;
+}
+
+.post-img-first p {
+    margin: 10px 0px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.post-img-first {
+    position: relative;
+    max-width: 370px;
+    position: relative;
+    border: 1.0px solid #f8f8f8;
+}
+
+.post-img-first:hover {
+    transition: 0.5s;
+    width: 370px;
+    background-color: #362f2d;
+    position: relative;
+}
+
+.post-img-first:hover .fon-img-number {
+    background-color: #c7b299;
+}
+
+.post-img-first:hover .fon-img-mounts {
+    background-color: #a48d72;
+}
+
+.post-img-first:hover p {
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.post-img-first:hover span {
+    font-family: "Raleway";
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #c7b299;
+}
+
+@media(max-width:1214px) {
+    .post-img-block {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.sub-footer {}
+
+.sub-footer img {
+    margin: 0 30px;
+}
+
+.matherfucker-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 489px;
+    background: url("img/bg_photo_11122.png") no-repeat;
+}
+
+.main-fucker-footer {
+    background-color: #191919;
+    height: 509px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.bloc-with-bloc {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-fucking-bloc {
+    position: relative;
+    top: -5%;
+    max-width: 270px;
+}
+
+.first-fuck-text {
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.first-fuck-bloc-img {
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    font-family: "Raleway";
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+}
+
+.q2-fucking-bloc {
+    flex: 0 1 25%;
+    max-width: 270px;
+}
+
+.q2-main-text {
+    margin-bottom: 20px;
+    font-family: "Raleway";
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.news-one {
+    margin-top: 15%;
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #555555;
+    position: relative;
+}
+
+.first-news {
+    margin-top: 15%;
+}
+
+.news-one::before {
+    content: "September 08, 2015";
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #363636;
+    position: absolute;
+    top: -20px;
+}
+
+.news-one:hover {
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #c7b299;
+}
+
+.trhi-one:hover {
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #c7b299;
+}
+
+.news-one:hover:before {
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.line-footer {
+    margin-top: 9%;
+    width: 270px;
+    height: 2px;
+    background-color: #252525;
+}
+
+.q3-fucking-bloc {
+    max-width: 270px;
+}
+
+.q3-main-text {
+    margin-bottom: 20px;
+    font-family: "Raleway";
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.trhi-news .line-footer {}
+
+.trhi-one a {
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #00bff3;
+}
+
+.trhi-one {
+    margin-bottom: 15%;
+    margin-top: 5%;
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    /* Text styles for " Cum soluta nobis eleifend option congue nihil imperdiet doming" */
+    color: #555555;
+    position: relative;
+}
+
+.trhi-news::after {
+    content: "3 mins ago";
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #363636;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+
+.trhi2-news::after {
+    content: "5 hours ago";
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #363636;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+
+.trhi3-news::after {
+    content: "20 days ago";
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #363636;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+
+.q4-fucking-bloc {
+    max-width: 290px;
+}
+
+.q4-maintext {
+    margin-bottom: 20px;
+    font-family: "Raleway";
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.q4-main-flex img {
+    margin: 5px;
+}
+
+.q4-main-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/**/
+
+.foooooooooter {
+    padding-top: 50px;
+    height: 111px;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+}
+
+.foootrf-wraper {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-block span {
+    color: #959595;
+}
+
+.left-block a:hover {
+    color: #ffffff;
+}
+
+.left-block {
+    display: flex;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.foooter-liner {
+    margin: 0 9px;
+    color: #555555;
+}
+
+.foootrer-lact-wordsSup {
+    color: #555555;
+}
+
+.foootrer-lact-wordsFAQ {
+    /* Text styles for "FAQ" */
+    color: #c7b299;
+}
+
+.foootrer-lact-wordsPri {
+    color: #555555;
+}
+
+.right-block {
+    display: flex;
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.foootrer-lact-words-rigth span {
+    color: #959595;
+}
